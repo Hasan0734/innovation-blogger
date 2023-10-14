@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HomeBanner = () => {
   return (
-    <div>
+    <section>
       <div className="container mx-auto mt-5">
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 sm:gap-8">
           {blogs.map((blog) => (
@@ -33,7 +33,7 @@ const HomeBanner = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

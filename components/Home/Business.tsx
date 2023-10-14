@@ -3,12 +3,16 @@ import React from "react";
 import BlogCard from "./BlogCard";
 import SectionTitle from "../SectionTitle";
 
-const Technology = () => {
+const Business = () => {
   return (
-    <section className="py-10">
+    <section className="pt-10">
       <div className="container mx-auto">
-        <SectionTitle title={"Technology"} link={"/technology"} />
+        <SectionTitle title={"Business"} link={"/business"} />
         <div className="pt-10 grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
           <BlogCard />
           <BlogCard />
           <BlogCard />
@@ -19,4 +23,4 @@ const Technology = () => {
   );
 };
 
-export default Technology;
+export default Business;
