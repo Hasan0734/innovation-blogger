@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "International", "link": "/international" },
+    { "id": 2, "name": "Sports", "link": "/sports" },
+    { "id": 3, "name": "Opinion", "link": "/opinion" },
+    { "id": 4, "name": "Business", "link": "/business" },
+    { "id": 5, "name": "Youth", "link": "/youth" },
+    { "id": 6, "name": "Entertainment", "link": "/entertainment" },
+    { "id": 7, "name": "Lifestyle", "link": "/lifestyle" }
+]

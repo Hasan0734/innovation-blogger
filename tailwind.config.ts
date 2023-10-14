@@ -17,6 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        primeblue: '#645cf8',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
