@@ -1,9 +1,15 @@
 [
-    { "id": 1, "name": "International", "link": "/international" },
-    { "id": 2, "name": "Sports", "link": "/sports" },
-    { "id": 3, "name": "Opinion", "link": "/opinion" },
-    { "id": 4, "name": "Business", "link": "/business" },
-    { "id": 5, "name": "Youth", "link": "/youth" },
-    { "id": 6, "name": "Entertainment", "link": "/entertainment" },
-    { "id": 7, "name": "Lifestyle", "link": "/lifestyle" }
+  { "id": 1, "name": "Home", "link": "/" },
+  { "id": 2, "name": "International", "link": "/international" },
+  { "id": 3, "name": "Sports", "link": "/sports" },
+  { "id": 4, "name": "Opinion", "link": "/opinion" },
+  { "id": 5, "name": "Business", "link": "/business" },
+  { "id": 6, "name": "Youth", "link": "/youth" },
+  { "id": 7, "name": "Entertainment", "link": "/entertainment" },
+  { "id": 8, "name": "Lifestyle", "link": "/lifestyle" },
+  { "id": 9, "name": "Environment", "link": "/international" },
+  { "id": 10, "name": "Science & Technology", "link": "/international" },
+  { "id": 11, "name": "Corporate", "link": "/international" },
+  { "id": 12, "name": "Photo", "link": "/international" },
+  { "id": 13, "name": "Video", "link": "/international" }
 ]
