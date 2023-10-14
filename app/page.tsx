@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import HomeBanner from "@/components/Home/HomeBanner";
+
 
 export default function Home() {
   return (
     <main className="">
-
+      <HomeBanner />
     </main>
-  )
+  );
 }

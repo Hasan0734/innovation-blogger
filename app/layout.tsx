@@ -25,6 +25,7 @@ export default function RootLayout({
           <TopNav />
           <Navbar />
         </header>
+        {children}
       </body>
     </html>
   );
