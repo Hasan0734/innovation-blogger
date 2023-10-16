@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
-const CoddingCard = () => {
+function BlogCardRow() {
   return (
     <>
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-col md:flex-row">
         <Link href={"/"} className="">
           <img
-            className="w-full h-[78px] sm:h-[65px]"
+            className="min-w-full md:min-w-[320px] h-[200px] md:h-[180px] "
             src="assets/post2.jpg"
             alt="blog-image"
           />
@@ -15,7 +15,7 @@ const CoddingCard = () => {
         <div>
           <Link
             href={"/"}
-            className="text-sm sm:text-xl leading-3 font-semibold hover:text-primeblue"
+            className="text-2xl leading-3 font-semibold hover:text-primeblue"
           >
             Delicious simple cooking recipe review
           </Link>
@@ -27,10 +27,17 @@ const CoddingCard = () => {
             </span>
             <span>April 23, 2023</span>
           </div>
+          <div className="mt-4 max-w-md">
+            <p className="line-clamp-2 text-sm text-gray-600 ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis hic
+              suscipit quo aspernatur eveniet fugiat incidunt perspiciatis
+              maxime rerum veniam.
+            </p>
+          </div>
         </div>
       </div>
     </>
   );
-};
+}
 
-export default CoddingCard;
+export default BlogCardRow;

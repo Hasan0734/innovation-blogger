@@ -30,7 +30,7 @@ const BlogCard = ({ video }: PropsTypes) => {
           </div>
         </Link>
         <div className="mt-2">
-          <Link href={""} className="text-base font-semibold leading-6 hover:text-primeblue">
+          <Link href={""} className="text-base font-semibold leading-6 hover:text-primeblue line-clamp-2">
             Uber Lands Electric Car Deal With Nissan In The UK
           </Link>
           <div className="text-xs text-gray-500">

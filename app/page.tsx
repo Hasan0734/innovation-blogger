@@ -4,6 +4,9 @@ import Codding from "@/components/Home/Codding";
 import DesignSection from "@/components/Home/DesignSection";
 import HomeBanner from "@/components/Home/HomeBanner";
 import HomeBannerTwo from "@/components/Home/HomeBannerTwo";
+import OtherSection from "@/components/Home/OtherSection";
+import OtherSectionTwo from "@/components/Home/OtherSectionTwo";
+import ReadMoreSection from "@/components/Home/ReadMoreSection";
 import TechSection from "@/components/Home/TechSection";
 import Technology from "@/components/Home/Technology";
 import Videos from "@/components/Home/Videos";
@@ -24,7 +27,10 @@ export default function Home() {
           <DesignSection />
           <BusinessSection />
         </div>
+        <ReadMoreSection />
+        <OtherSection />
       </SidebarLayout>
+      <OtherSectionTwo />
     </main>
   );
 }

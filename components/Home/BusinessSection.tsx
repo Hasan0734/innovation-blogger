@@ -21,12 +21,11 @@ const BusinessSection = () => {
                     Design
                   </span>
                 </div>
-                <Link
-                  href={"/"}
+                <h3
                   className="text-white text-sm sm:text-2xl font-semibold"
                 >
                   Uber Lands Electric Car Deal With Nissan In The UK
-                </Link>
+                </h3>
                 <div className=" text-gray-300 text-xs mt-4">
                   <span className="">by Jahid Hasan - </span>
                   <span>April 23, 2023</span>
