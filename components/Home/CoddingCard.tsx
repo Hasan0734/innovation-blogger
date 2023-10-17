@@ -1,7 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-const CoddingCard = () => {
+interface PropsType {
+  titleSize?: string;
+}
+
+const CoddingCard = ({titleSize= "text-sm sm:text-xl"}:PropsType) => {
   return (
     <>
       <div className="flex gap-4">
@@ -15,7 +19,7 @@ const CoddingCard = () => {
         <div>
           <Link
             href={"/"}
-            className="text-sm sm:text-xl leading-3 font-semibold hover:text-primeblue"
+            className={`${titleSize} leading-3 font-semibold hover:text-primeblue line-clamp-2`}
           >
             Delicious simple cooking recipe review
           </Link>

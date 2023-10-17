@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
-function BlogCardRow() {
+function BlogCardRow({imageSize}:any) {
   return (
     <>
       <div className="flex gap-4 flex-col md:flex-row">
         <Link href={"/"} className="">
           <img
-            className="min-w-full md:min-w-[320px] h-[200px] md:h-[180px] "
+            className={imageSize}
             src="assets/post2.jpg"
             alt="blog-image"
           />

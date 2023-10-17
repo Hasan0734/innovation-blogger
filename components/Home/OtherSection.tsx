@@ -6,10 +6,10 @@ import BlogCard from "./BlogCard";
 const OtherSection = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="py-7">
         <div className="">
           <SectionTitle title={"Others"} link={"/codding"} />
-          <div className="pt-10 grid grid-cols-2 sm:grid-cols-3 gap-8">
+          <div className="pt-7 grid grid-cols-2 sm:grid-cols-3 gap-8">
             <BlogCard />
             <BlogCard />
             <BlogCard />

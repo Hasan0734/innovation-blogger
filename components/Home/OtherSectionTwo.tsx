@@ -9,7 +9,7 @@ const OtherSectionTwo = () => {
       <div className=" container mx-auto">
         <div className="">
           <SectionTitle title={"Others"} link={"/codding"} />
-          <div className="pt-10 grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="pt-7 grid grid-cols-2 md:grid-cols-4 gap-8">
             <BlogCard />
             <BlogCard />
             <BlogCard />

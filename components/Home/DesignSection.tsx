@@ -7,10 +7,10 @@ import CoddingCard from "./CoddingCard";
 const DesignSection = () => {
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-7">
         <div className="">
           <SectionTitle title={"Design"} link={"/codding"} />
-          <div className="pt-10 grid grid-cols-1">
+          <div className="pt-7 grid grid-cols-1">
             <div>
               <Link href={`/`} >
                 <div

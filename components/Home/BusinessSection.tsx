@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const BusinessSection = () => {
   return (
-    <div className="pt-10">
+    <div className="pt-7">
       <div className="">
         <SectionTitle title={"Design"} link={"/codding"} />
-        <div className="pt-10 grid  grid-cols-1">
+        <div className="pt-7 grid  grid-cols-1">
           <Link href={``}>
             <div
               className="relative group bg-cover bg-no-repeat h-[200px]  w-full

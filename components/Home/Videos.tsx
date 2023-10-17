@@ -9,10 +9,10 @@ import SectionTitle from "../SectionTitle";
 
 const Videos = () => {
   return (
-    <section className="pt-10">
+    <section className="pt-7">
       <div className="container mx-auto">
         <SectionTitle title={"Videos"} link={"/videos"} />
-        <div className="pt-10 grid  grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="pt-7 grid  grid-cols-1 sm:grid-cols-2 gap-8">
           {blogs.slice(0, 2).map((blog) => (
             <Link href={`/${blog.id}`} key={blog.id}>
               <div

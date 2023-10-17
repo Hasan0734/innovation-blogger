@@ -8,7 +8,7 @@ const Codding = () => {
     <section className="">
       <div className="">
         <SectionTitle title={"Codding"} link={"/codding"} />
-        <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="pt-7 grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="">
             <Link href={"/"}>
               <div className="relative">
